@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c24844-031e-466a-81ae-ff055f5e82ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IKnowEverything.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CelciusToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CelciusToFahrenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IKnowEverything.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IKnowEverything.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +36,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CelciusToFahrenheit">
+  <component name="RunManager" selected="Application.IKnowEverything">
     <configuration name="CanIKeepKidsQuiet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CanIKeepKidsQuiet" />
       <module name="Demo2" />
@@ -48,6 +46,13 @@
     </configuration>
     <configuration name="CelciusToFahrenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CelciusToFahrenheit" />
+      <module name="Demo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IKnowEverything" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IKnowEverything" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -67,20 +72,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VersatileSnitSoft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VersatileSnitSoft" />
-      <module name="Demo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IKnowEverything" />
         <item itemvalue="Application.CelciusToFahrenheit" />
         <item itemvalue="Application.CanIKeepKidsQuiet" />
         <item itemvalue="Application.ReverseWord" />
         <item itemvalue="Application.KeepingMoreKidsQuiet" />
-        <item itemvalue="Application.VersatileSnitSoft" />
       </list>
     </recent_temporary>
   </component>
