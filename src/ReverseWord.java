@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DemoD {
+public class ReverseWord {
     public static void main(String[] args) {
         var keyboard = new Scanner(System.in);
         char c1, c2, c3, c4;
@@ -15,6 +15,7 @@ public class DemoD {
         System.out.print(c2);
         System.out.print(c1);
         System.out.println();
+        System.out.println(keyboard.findWithinHorizon("\\d\\d\\d", 0));
 
         keyboard.close();
     }
