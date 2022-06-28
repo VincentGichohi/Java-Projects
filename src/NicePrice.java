@@ -19,18 +19,37 @@ public class NicePrice {
         hasCoupon = reply == 'Y' || reply == 'y';
         hasNoCoupon = reply == 'N' || reply == 'n';
 
-        if (!isKid && !isSenior) {
+//        if (!isKid && !isSenior) {
+//            price = 9.25;
+//        }
+//        if (isKid || isSenior) {
+//            price = 5.25;
+//        }
+//        if (hasCoupon) {
+//            price -=2.00;
+//        }
+//        if (!hasCoupon && !hasNoCoupon) {
+//            System.out.println("Huh?? ");
+//        }
+//        if (age >= 12 && age < 65) {
+//            price = 9.25;
+//        }
+//        if (age < 12 || age >= 65) {
+//            price = 5.25;
+//        }
+//        if ((reply == 'Y' || reply == 'y') && (age >= 12 && age < 65)) {
+//            price -=2.00;
+//        }
+
+        if (age >= 12 && age < 65) {
             price = 9.25;
-        }
-        if (isKid || isSenior) {
+            if (reply == 'Y' || reply == 'y') {
+                price -=2.00;
+            }
+        } else {
             price = 5.25;
         }
-        if (hasCoupon) {
-            price -=2.00;
-        }
-        if (!hasCoupon && !hasNoCoupon) {
-            System.out.println("Huh?? ");
-        }
+
         System.out.print("Please pay $");
         System.out.print(price);
         System.out.print(" . ");
