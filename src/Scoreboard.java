@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import static java.lang.System.out;
-public class Scroreboard {
+public class Scoreboard {
 
     enum WhoWins {home, visitor, neither}    // The feature that allows more than two boolean values
 
