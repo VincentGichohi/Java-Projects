@@ -23,6 +23,12 @@ public class WinLoseOrTie {
             out.println(hankees);
             out.print("Socks:  ");
             out.println(socks);
+        } else {
+            out.println("It's a tie....");
+            out.print("Hankees: ");
+            out.println(hankees);
+            out.print("Socks: ");
+            out.println(socks);
         }
 
         keyboard.close();
