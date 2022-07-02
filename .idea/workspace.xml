@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c24844-031e-466a-81ae-ff055f5e82ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TrafficSigns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Scoreboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Scoreboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PlayTwentyOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PlayTwentyOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +37,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Scoreboard">
+  <component name="RunManager" selected="Application.PlayTwentyOne">
     <configuration name="NicePrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NicePrice" />
+      <module name="Demo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayTwentyOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayTwentyOne" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -53,15 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicketPrice" />
-      <module name="Demo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoTeams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoTeams" />
+    <configuration name="SimpleDiceGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleDiceGame" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PlayTwentyOne" />
+        <item itemvalue="Application.SimpleDiceGame" />
         <item itemvalue="Application.Scoreboard" />
         <item itemvalue="Application.WinLoseOrTie" />
         <item itemvalue="Application.NicePrice" />
-        <item itemvalue="Application.TicketPrice" />
-        <item itemvalue="Application.TwoTeams" />
       </list>
     </recent_temporary>
   </component>
