@@ -29,7 +29,7 @@ public class Scoreboard {
 
         out.println();
         out.print("""
-                Today's game is brought to you by SnitSoft, the number one software vendor in the Hankeevile area. SnitSoft
+                Today's game is brought to you by \nSnitSoft, the number one software vendor in the Hankeevile area. SnitSoft
                 is featured proudly in Chapter 6. And remember, four out of five doctors recommend SnitSoft to their patients.
                 """);
         out.println();
