@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class GuessGame {
+public class GuessGame {
 }
