@@ -10,7 +10,6 @@ public class LessTalking {
                 out.println(" time(s).");
             }
         }
-
         out.println("10 times! Horray!");
         out.println("I can swallow!");
     }
