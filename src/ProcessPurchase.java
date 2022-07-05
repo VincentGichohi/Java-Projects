@@ -1,21 +1,19 @@
 import java.util.Scanner;
 
-public class ProcessData {
+public class ProcessPurchase {
     public static void main(String[] args) {
         var keyboard =  new Scanner(System.in);
-        double unitPrice;
-        int quantity;
-        boolean taxable;
+        Purchase onePurchase = new Purchase();
 
         System.out.print("Unit Price: ");
-        unitPrice = keyboard.nextDouble();
+        onePurchase.unitPrice = keyboard.nextDouble();
         System.out.print("Quantity: ");
-        quantity = keyboard.nextInt();
+        onePurchase.quantity = keyboard.nextInt();
         System.out.print("Taxable? (true/false) ");
-        taxable = keyboard.nextBoolean();
+        onePurchase.taxable = keyboard.nextBoolean();
 
-        double total = unitPrice * quantity;
-        if (taxable) {
+        double total = onePurchase.unitPrice * onePurchase.quantity;
+        if (onePurchase.taxable) {
             total *= 1.05;
         }
         System.out.print("Total: ");
