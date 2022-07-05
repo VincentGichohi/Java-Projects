@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c24844-031e-466a-81ae-ff055f5e82ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ProcessData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +65,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayTwentyOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlayTwentyOne" />
+    <configuration name="ProcessData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProcessData" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,10 +75,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.IHopeYouKnowWhatYouAreDoing" />
+        <item itemvalue="Application.ProcessData" />
         <item itemvalue="Application.LessTalking" />
         <item itemvalue="Application.GuessGame" />
         <item itemvalue="Application.CanIKeepKidsQuiet" />
-        <item itemvalue="Application.PlayTwentyOne" />
       </list>
     </recent_temporary>
   </component>
