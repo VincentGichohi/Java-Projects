@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c24844-031e-466a-81ae-ff055f5e82ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ProcessMoreData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ProcessPurchaseRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProcessPurchaseRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Purchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Purchase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ProcessPurchaseRecord">
+  <component name="RunManager" selected="Application.ProcessMoreData">
     <configuration name="BmiCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BmiCalculator" />
       <module name="Demo2" />
@@ -60,8 +60,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessPurchase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProcessPurchase" />
+    <configuration name="ProcessMoreData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProcessMoreData" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProcessMoreData" />
         <item itemvalue="Application.ProcessPurchaseRecord" />
         <item itemvalue="Application.MainThing" />
         <item itemvalue="Application.GDPConverter" />
         <item itemvalue="Application.BmiCalculator" />
-        <item itemvalue="Application.ProcessPurchase" />
       </list>
     </recent_temporary>
   </component>
