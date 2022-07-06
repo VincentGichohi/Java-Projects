@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ProcessPurchaseRecord {
     public static void main(String[] args) {
        var keyboard =  new Scanner(System.in);
-
+R
         System.out.print("Unit Price: ");
         var unitPrice = keyboard.nextDouble();
         System.out.print("Quantity: ");
