@@ -1,7 +1,7 @@
 
 public class Thing {
 
-    int value1;
-    int value2;
+    double value1;
+    double value2;
 
 }
