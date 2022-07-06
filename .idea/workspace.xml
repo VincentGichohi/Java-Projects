@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c24844-031e-466a-81ae-ff055f5e82ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/GDPConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GDPConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainThing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainThing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
