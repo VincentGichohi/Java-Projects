@@ -24,7 +24,7 @@ public class AddChips {
 
             out.print("You have ");
             out.print(numberOfChips);
-            out.println(" chips: ");
+            out.println(" chips ");
         }
         keyboard.close();
 
