@@ -6,5 +6,8 @@ public class ProcessNiceAccounts {
         NiceAccount  anAccount;
         double InterestRate;
 
+        for (int i=0; i < 3; i++ ) {
+            anAccount = new NiceAccount();
+        }
     }
 }
