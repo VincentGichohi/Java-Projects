@@ -1,15 +1,17 @@
 import java.util.Scanner;
 import java.text.NumberFormat;
+import java.util.Locale;
 
 public class BetterProcessData {
     public static void main(String[] args) {
        var keyboard = new Scanner(System.in);
+       keyboard.useLocale(Locale.FRANCE);
        double unitPrice;
        int quantity;
        boolean taxable;
 
-       NumberFormat currency = NumberFormat.getCurrencyInstance();
-
+//       NumberFormat currency = NumberFormat.getCurrencyInstance();
+        var currency = NumberFormat.getCurrencyInstance(Locale.FRANCE);
         System.out.print("Unit Price: ");
         unitPrice = keyboard.nextDouble();
         System.out.print("Quantity: ");
