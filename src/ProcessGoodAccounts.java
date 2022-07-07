@@ -24,6 +24,11 @@ public class ProcessGoodAccounts {
             anAccount.display();
 
             interestRate = myRandom.nextInt(5);
+            yearlyInterest = anAccount.getInterest(interestRate);
+
+            System.out.print("This year's interest is ");
+            System.out.println(currency.format(yearlyInterest));
+            System.out.println();
         }
     }
 }
