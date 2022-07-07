@@ -4,7 +4,7 @@ public class ProcessNiceAccounts {
     public static void main(String[] args) {
         var myRandom = new Random();
         NiceAccount  anAccount;
-        double InterestRate;
+        double interestRate;
 
         for (int i=0; i < 3; i++ ) {
             anAccount = new NiceAccount();
@@ -18,6 +18,11 @@ public class ProcessNiceAccounts {
 
             anAccount.display();
 
+            interestRate = myRandom.nextInt(5);
+            anAccount.addInterest(interestRate);
+
+            anAccount.display();
+            System.out.println();
 
         }
     }
