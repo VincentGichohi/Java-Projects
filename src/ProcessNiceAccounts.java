@@ -8,6 +8,12 @@ public class ProcessNiceAccounts {
 
         for (int i=0; i < 3; i++ ) {
             anAccount = new NiceAccount();
+
+            anAccount.lastName = " " +
+                    (char) (myRandom.nextInt(26) + 'A') +
+                    (char) (myRandom.nextInt(26) + 'A') +
+                    (char) (myRandom.nextInt(26) + 'A');
+
         }
     }
 }
