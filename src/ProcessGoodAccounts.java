@@ -11,7 +11,7 @@ public class ProcessGoodAccounts {
         double interestRate;
         double yearlyInterest;
 
-        for (i=0; i < 3; i++) {
+        for (int i=0; i < 3; i++) {
             anAccount = new GoodAccount();
 
             anAccount.lastName = "" +
