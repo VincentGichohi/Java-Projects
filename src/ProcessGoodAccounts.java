@@ -11,5 +11,15 @@ public class ProcessGoodAccounts {
         double interestRate;
         double yearlyInterest;
 
+        for (i=0; i < 3; i++) {
+            anAccount = new GoodAccount();
+
+            anAccount.lastName = "" +
+                    (char) (myRandom.nextInt(26) + 'A') +
+                    (char) (myRandom.nextInt(26) + 'A') +
+                    (char) (myRandom.nextInt(26) + 'A');
+            anAccount.id = myRandom.nextInt(10000);
+
+        }
     }
 }
