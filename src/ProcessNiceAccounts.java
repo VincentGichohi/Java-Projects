@@ -19,7 +19,7 @@ public class ProcessNiceAccounts {
             anAccount.display();
 
             interestRate = myRandom.nextInt(5);
-            anAccount.addInterest(interestRate);
+            anAccount.addInterest(interestRate, 3);
 
             anAccount.display();
             System.out.println();
