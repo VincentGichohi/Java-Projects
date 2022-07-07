@@ -7,7 +7,7 @@ public class NiceAccount {
     int id;
     double balance;
 
-    void addInterest(double rate) {
+    void addInterest(double rate, int howManyyears) {
         out.print("Adding ");
         out.print(rate);
         out.println(" percent ....");
