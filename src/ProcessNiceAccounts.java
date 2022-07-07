@@ -13,6 +13,11 @@ public class ProcessNiceAccounts {
                     (char) (myRandom.nextInt(26) + 'A') +
                     (char) (myRandom.nextInt(26) + 'A') +
                     (char) (myRandom.nextInt(26) + 'A');
+            anAccount.id = myRandom.nextInt(10000);
+            anAccount.balance = myRandom.nextInt(10000);
+
+            anAccount.display();
+
 
         }
     }
