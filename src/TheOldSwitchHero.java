@@ -10,6 +10,7 @@ public class TheOldSwitchHero {
 
         out.print("Type your question my child: ");
         keyboard.nextLine();
+        //This is the selector that will be inputted in the switch statement
         randomNumber = myRandom.nextInt(10) + 1;
 
         //The switch statement replaces if statements being repeated over and over.
@@ -29,6 +30,7 @@ public class TheOldSwitchHero {
             }
             case 9 -> out.println("No, not until Conwell seizes Dover.");
             case 10 -> out.println("No, not until Nell squeezes Rover.");
+            //This line is entirely optional. You can choose to include it or not.
             default -> out.println("My random number generator is broken! ");
         }
 
