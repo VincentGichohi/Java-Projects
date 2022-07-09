@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c24844-031e-466a-81ae-ff055f5e82ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/TheOldSwitchHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheOldSwitchHero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DaysOfTheWeek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +40,9 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TheOldSwitchHero">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.DaysOfTheWeek">
+    <configuration name="DaysOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DaysOfTheWeek" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +78,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DaysOfTheWeek" />
         <item itemvalue="Application.TheOldSwitchHero" />
         <item itemvalue="Application.ReadAndWrite" />
         <item itemvalue="Application.ProcessGoodAccounts" />
         <item itemvalue="Application.ProcessNiceAccounts" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
