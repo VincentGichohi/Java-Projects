@@ -15,6 +15,14 @@ public class TheOldSwitchHero {
         switch (randomNumber) {
             case 1 -> out.println("Yes. Isn't it obvious? ");
             case 2 -> out.println("What part of no! don't you understand?");
+            case 3 -> out.println("Yes, yessssir!! Three bags full!");
+            case 4,5 -> out.println("No, and don't ever ask again");
+            case 6 -> out.println("Sure, whatever.");
+            case 7 -> out.println("Yes, but only if you're nice to me.");
+            case 8 -> {
+                out.print("Yes (as if I care).");
+                out.println(" Next time, take your problems somewhere else.");
+            }
 
         }
 
