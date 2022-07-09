@@ -12,6 +12,10 @@ public class TheOldSwitchHero {
         keyboard.nextLine();
         randomNumber = myRandom.nextInt(10) + 1;
 
+        //The switch statement replaces if statements being repeated over and over.
+        //The random generator generates a list of random  numbers from 1 to 10
+        //All these numbers are replaced by the corresponding statements.
+        //This statements will be printed in place of the numbers generated.
         switch (randomNumber) {
             case 1 -> out.println("Yes. Isn't it obvious? ");
             case 2 -> out.println("What part of no! don't you understand?");

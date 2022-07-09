@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28c24844-031e-466a-81ae-ff055f5e82ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TheOldSwitchHero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TheOldSwitchHero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +40,7 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReadAndWrite">
-    <configuration name="BetterProcessData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BetterProcessData" />
-      <module name="Demo2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TheOldSwitchHero">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Demo2" />
@@ -75,13 +69,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TheOldSwitchHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheOldSwitchHero" />
+      <module name="Demo2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheOldSwitchHero" />
         <item itemvalue="Application.ReadAndWrite" />
         <item itemvalue="Application.ProcessGoodAccounts" />
         <item itemvalue="Application.ProcessNiceAccounts" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BetterProcessData" />
       </list>
     </recent_temporary>
   </component>
