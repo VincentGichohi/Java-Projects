@@ -12,7 +12,9 @@ public class TheOldSwitchHero {
         keyboard.nextLine();
         randomNumber = myRandom.nextInt(10) + 1;
 
-
+        switch (randomNumber) {
+            case 1 -> out.println("Yes. Isn't it obvious? ");
+        }
 
     }
 }
