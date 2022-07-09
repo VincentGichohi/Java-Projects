@@ -6,6 +6,10 @@ public class TheOldSwitchHero {
     public static void main(String[] args) {
         var keyboard = new Scanner(System.in);
         var myRandom = new Random();
+        int randomNumber;
+
+        out.print("Type your question my child: ");
+
 
     }
 }
