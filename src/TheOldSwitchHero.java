@@ -14,6 +14,8 @@ public class TheOldSwitchHero {
 
         switch (randomNumber) {
             case 1 -> out.println("Yes. Isn't it obvious? ");
+            case 2 -> out.println("What part of no! don't you understand?");
+
         }
 
     }
