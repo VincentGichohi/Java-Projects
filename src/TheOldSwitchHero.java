@@ -23,8 +23,13 @@ public class TheOldSwitchHero {
                 out.print("Yes (as if I care).");
                 out.println(" Next time, take your problems somewhere else.");
             }
-
+            case 9 -> out.println("No, not until Conwell seizes Dover.");
+            case 10 -> out.println("No, not until Nell squeezes Rover.");
+            default -> out.println("My random number generator is broken! ");
         }
 
+        out.println("GoodBye!!");
+
+        keyboard.close();
     }
 }
