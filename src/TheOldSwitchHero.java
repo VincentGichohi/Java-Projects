@@ -9,6 +9,9 @@ public class TheOldSwitchHero {
         int randomNumber;
 
         out.print("Type your question my child: ");
+        keyboard.nextLine();
+        randomNumber = myRandom.nextInt(10) + 1;
+
 
 
     }
