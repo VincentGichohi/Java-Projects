@@ -9,6 +9,8 @@ public class TheNewSwitcheroo {
         int randomNumber;
         String output;
 
+        out.print("What's your question my child? ");
+        keyboard.nextLine();
     }
 
 }
