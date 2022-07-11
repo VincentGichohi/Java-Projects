@@ -39,7 +39,7 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DaysOfTheWeek">
+  <component name="RunManager" selected="Application.TheNewSwitcheroo">
     <configuration name="DaysOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DaysOfTheWeek" />
       <module name="Demo2" />
@@ -54,15 +54,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProcessNiceAccounts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProcessNiceAccounts" />
+    <configuration name="ReadAndWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ReadAndWrite" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadAndWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReadAndWrite" />
+    <configuration name="TheNewSwitcheroo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TheNewSwitcheroo" />
       <module name="Demo2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TheNewSwitcheroo" />
         <item itemvalue="Application.DaysOfTheWeek" />
         <item itemvalue="Application.TheOldSwitchHero" />
         <item itemvalue="Application.ReadAndWrite" />
         <item itemvalue="Application.ProcessGoodAccounts" />
-        <item itemvalue="Application.ProcessNiceAccounts" />
       </list>
     </recent_temporary>
   </component>
