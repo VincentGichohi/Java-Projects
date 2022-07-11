@@ -11,6 +11,8 @@ public class TheNewSwitcheroo {
 
         out.print("What's your question my child? ");
         keyboard.nextLine();
+        randomNumber = myRandom.nextInt(10) + 1;
+
     }
 
 }
