@@ -13,6 +13,7 @@ public class StateYourTerms {
 
         switch(month) {
             case "January", "March", "May", "July", "August", "October", "December" -> numberOfDays = 31;
+            case "April", "June", "September", "November" -> numberOfDays = 30;
 
         }
     }
