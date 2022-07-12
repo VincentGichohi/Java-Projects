@@ -7,6 +7,13 @@ public class StateYourTerms {
         String month;
         int numberOfDays = 0;
         boolean isLeapYear;
+
+        out.print("Which month? ");
+        month = keyboard.next();
+
+        switch(month) {
+            case
+        }
     }
 
 }
