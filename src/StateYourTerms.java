@@ -24,7 +24,7 @@ public class StateYourTerms {
                 }
             }
         }
-
+        out.print("The number of days are: ");
         out.print(numberOfDays);
         out.println(" days ");
 
