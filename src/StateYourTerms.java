@@ -17,9 +17,18 @@ public class StateYourTerms {
             case "February" -> {
                 out.print("Leap year (true/fasle) ? ");
                 isLeapYear = keyboard.nextBoolean();
-
+                if (isLeapYear) {
+                    numberOfDays = 29;
+                } else {
+                    numberOfDays = 28;
+                }
             }
         }
+
+        out.print("Number of Days: ");
+        out.println(" days ");
+
+        keyboard.close();
     }
 
 }
