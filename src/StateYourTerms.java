@@ -12,7 +12,8 @@ public class StateYourTerms {
         month = keyboard.next();
 
         switch(month) {
-            case
+            case "January", "March", "May", "July", "August", "October", "December" -> numberOfDays = 31;
+
         }
     }
 
