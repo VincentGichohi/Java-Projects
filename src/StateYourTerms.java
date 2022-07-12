@@ -14,7 +14,11 @@ public class StateYourTerms {
         switch(month) {
             case "January", "March", "May", "July", "August", "October", "December" -> numberOfDays = 31;
             case "April", "June", "September", "November" -> numberOfDays = 30;
+            case "February" -> {
+                out.print("Leap year (true/fasle) ? ");
+                isLeapYear = keyboard.nextBoolean();
 
+            }
         }
     }
 
